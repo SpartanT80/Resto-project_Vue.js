@@ -1,21 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+<SignUp />
 </template>
 
 <script>
+import SignUp from './components/SignUp.vue';
 
 export default {
-  name: 'App',
+    name: 'App',
+    components: {
+      SignUp
+    }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
   text-align: center;
   color: #2c3e50;
+  background-color: grey;
   margin-top: 60px;
 }
 </style>
