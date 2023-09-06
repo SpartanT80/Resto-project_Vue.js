@@ -23,6 +23,12 @@
       "email": "bruce@test.com",
       "password": "bruce123",
       "id": 4
+    },
+    {
+      "name": "flo2",
+      "email": "hello@dot.com",
+      "password": "asdert",
+      "id": 5
     }
   ]
 }
