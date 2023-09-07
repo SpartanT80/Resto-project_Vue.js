@@ -29,6 +29,12 @@
       "email": "hello@dot.com",
       "password": "asdert",
       "id": 5
+    },
+    {
+      "name": "user",
+      "email": "user@user.com",
+      "password": "user",
+      "id": 6
     }
   ]
 }
