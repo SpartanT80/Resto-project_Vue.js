@@ -35,6 +35,12 @@
       "email": "user@user.com",
       "password": "user",
       "id": 6
+    },
+    {
+      "name": "",
+      "email": "user@user.com",
+      "password": "user",
+      "id": 7
     }
   ]
 }
