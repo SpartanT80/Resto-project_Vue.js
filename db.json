@@ -36,5 +36,25 @@
       "password": "user",
       "id": 6
     }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Burger King",
+      "contact": 678767876,
+      "address": "2 kingstreet"
+    },
+    {
+      "id": 2,
+      "name": "Dominos",
+      "contact": 457635463,
+      "address": "56 pizzastreet"
+    },
+    {
+      "id": 3,
+      "name": "KFC",
+      "contact": 98643332,
+      "address": "12 chickenstreet"
+    }
   ]
-}
+} 
