@@ -39,10 +39,10 @@
   ],
   "restaurants": [
     {
-      "id": 1,
       "name": "Burger King",
+      "address": "2 kingstreet",
       "contact": 678767876,
-      "address": "2 kingstreet"
+      "id": 1
     },
     {
       "id": 2,
@@ -61,6 +61,18 @@
       "address": "66 junkfood street",
       "contact": "947534746564",
       "id": 4
+    },
+    {
+      "name": "Burger Ki",
+      "address": "2 kingstreet",
+      "contact": 678767876,
+      "id": 5
+    },
+    {
+      "name": "test",
+      "address": "test",
+      "contact": "12",
+      "id": 6
     }
   ]
 }
