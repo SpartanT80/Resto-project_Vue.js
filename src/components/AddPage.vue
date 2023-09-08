@@ -1,6 +1,6 @@
 <template>
     <HeaderPage />
-    <h1>Hello User, welcome on the Add restaurant Page</h1>
+    <h1>Hello {{ name }}, welcome on the Add restaurant Page</h1>
     <form class="add">
         <input type="text" name="name" placeholder="Enter name" v-model="restaurants.name">
         <input type="text" name="address" placeholder="Enter address" v-model="restaurants.address">
@@ -19,6 +19,7 @@ export default {
     },
     data() {
         return {
+            name: '',
             restaurants: {
                 name: '',
                 address: '',
@@ -34,15 +35,17 @@ export default {
                 address: this.restaurants.address,
                 contact: this.restaurants.contact
             });
-            if(result.status == 201){
+            if (result.status == 201) {
                 this.$router.push({ name: 'HomePage' })
             }
         }
     },
     mounted() {
         let user = localStorage.getItem("user-info");
-        if (!user) {
-            this.$router.push({ name: 'SignUp' })
+        if (user) {
+            this.name = JSON.parse(user).name;
+        } else {
+            this.$router.push({ name: 'SignUp' });
         }
     }
 }
