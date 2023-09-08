@@ -24,7 +24,8 @@ body{
 }
 
 .register input,
-.login input {
+.login input,
+.add input {
     width: 300px;
     height: 20px;
     padding-left: 20px;
@@ -37,7 +38,8 @@ body{
 }
 
 .register button,
-.login button {
+.login button,
+.add button {
     width: 320px;
     height: 40px;
     border: 1px solid skyblue;
