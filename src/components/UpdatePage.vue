@@ -10,7 +10,8 @@
 </template>
 
 <script>
-import HeaderPage from './HeaderPage.vue'
+import HeaderPage from './HeaderPage.vue';
+import axios from 'axios';
 export default {
     name: 'UpdatePage',
     components: {
@@ -25,11 +26,14 @@ export default {
             }
         }
     },
-    mounted() {
+    async mounted() {
         let user = localStorage.getItem("user-info");
         if (!user) {
             this.$router.push({ name: 'SignUp' })
         }
+
+        const result = await axios.get('http://localhost:3000/restaurants/'+ this.$route.params.id);
+        this.restaurants = result.data;
     }
 }
 </script>
