@@ -55,6 +55,12 @@
       "name": "KFC",
       "contact": 98643332,
       "address": "12 chickenstreet"
+    },
+    {
+      "name": "Quick",
+      "address": "66 junkfood street",
+      "contact": "947534746564",
+      "id": 4
     }
   ]
-} 
+}

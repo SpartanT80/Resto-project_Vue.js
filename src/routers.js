@@ -4,6 +4,7 @@ import SignUp from './components/SignUp.vue'
 import LoginPage from './components/LoginPage.vue'
 import AddPage from './components/AddPage.vue'
 import UpdatePage from './components/UpdatePage.vue'
+import DeletePage from './components/DeletePage.vue'
 
 const routes = [
     {
@@ -30,6 +31,11 @@ const routes = [
         name: 'UpdatePage',
         component: UpdatePage,
         path: '/update'
+    },
+    {
+        name: 'DeletePage',
+        component: DeletePage,
+        path: '/delete'
     }
 ];
 

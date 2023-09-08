@@ -1,6 +1,6 @@
 <template>
     <HeaderPage/>
-    <h1>Hello User, welcome on the Delete restaurant Page</h1>
+    <h1>Hello {{ name }}, welcome on the Delete restaurant Page</h1>
     <form class="add">
         <input type="text" name="name" placeholder="Enter name" v-model="restaurants.name">
         <input type="text" name="address" placeholder="Enter address" v-model="restaurants.address">
