@@ -67,12 +67,6 @@
       "address": "2 kingstreet",
       "contact": 678767876,
       "id": 5
-    },
-    {
-      "name": "test",
-      "address": "test",
-      "contact": "12",
-      "id": 6
     }
   ]
 }
